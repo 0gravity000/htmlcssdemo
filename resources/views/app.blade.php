@@ -19,6 +19,9 @@
     <div class="row">
         <div id="menu" class="col">
             <router-link to="/html/links">リンク集</router-link><br>
+            <h1>HTML</h1>
+            <router-link to="/html/list">リスト関連</router-link>
+            <h1>CSS</h1>
         </div>
         <div id="main" class="col-8">
             <router-view></router-view>

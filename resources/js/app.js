@@ -7,6 +7,7 @@ import VueRouter from 'vue-router';
 
 import HeaderComponent from "./components/HeaderComponent";
 import Links from "./components/html/Links";
+import List from "./components/html/List";
 
  require('./bootstrap');
 
@@ -30,6 +31,10 @@ const router = new VueRouter({
         {
             path: '/html/links',
             component: Links
+        },
+        {
+            path: '/html/list',
+            component: List
         },
     ]
 });
