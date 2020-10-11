@@ -7,19 +7,20 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'HTML CSS Demo') }}</title>
+    <title>HTML CSS Demo</title>
 
     <!-- Styles -->
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
 </head>
 <body>
 <div id="app">
+    <header-component></header-component>
     <div class="container">
     <div class="row">
         <div id="menu" class="col">
             <p>ここにメニュー</p>
         </div>
-        <div id="main" class="col-6">
+        <div id="main" class="col-8">
             <p>ここに内容</p>
         </div>
     </div>
