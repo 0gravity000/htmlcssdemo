@@ -20,7 +20,8 @@
         <div id="menu" class="col">
             <router-link to="/html/links">リンク集</router-link><br>
             <h1>HTML</h1>
-            <router-link to="/html/list">リスト関連</router-link>
+            <router-link to="/html/list">リスト関連</router-link><br>
+            <router-link to="/html/table">テーブル関連</router-link><br>
             <h1>CSS</h1>
         </div>
         <div id="main" class="col-8">

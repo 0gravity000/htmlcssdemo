@@ -8,6 +8,7 @@ import VueRouter from 'vue-router';
 import HeaderComponent from "./components/HeaderComponent";
 import Links from "./components/html/Links";
 import List from "./components/html/List";
+import Table from "./components/html/Table";
 
  require('./bootstrap');
 
@@ -35,6 +36,10 @@ const router = new VueRouter({
         {
             path: '/html/list',
             component: List
+        },
+        {
+            path: '/html/table',
+            component: Table
         },
     ]
 });
