@@ -7,6 +7,7 @@
             <li><a rel="noreferrer noopener" href="https://developer.mozilla.org/ja/docs/Web/CSS" target="_blank">CSS: カスケーディングスタイルシート</a></li>
             <li><a rel="noreferrer noopener" href="https://developer.mozilla.org/ja/docs/Web/HTML/Element" target="_blank">HTML 要素リファレンス</a></li>
             <li><a rel="noreferrer noopener" href="https://developer.mozilla.org/ja/docs/Web/HTML/Attributes" target="_blank">HTML 属性リファレンス</a></li>
+            <li><a rel="noreferrer noopener" href="https://developer.mozilla.org/ja/docs/Web/HTML/Global_attributes" target="_blank">HTML グローバル属性</a></li>
             <li><a rel="noreferrer noopener" href="https://developer.mozilla.org/ja/docs/Web/CSS/Reference#Selectors" target="_blank">CSS リファレンス</a></li>
             <li><a rel="noreferrer noopener" href="https://developer.mozilla.org/ja/docs/Web/CSS/Pseudo-classes" target="_blank">CSS 擬似クラス</a></li>
             <li><a rel="noreferrer noopener" href="https://developer.mozilla.org/ja/docs/Web/CSS/Pseudo-elements" target="_blank">CSS 疑似要素</a></li>
