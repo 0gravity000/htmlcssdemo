@@ -18,10 +18,10 @@
     <div class="container">
     <div class="row">
         <div id="menu" class="col">
-            <p>ここにメニュー</p>
+            <router-link to="/html/links">リンク集</router-link><br>
         </div>
         <div id="main" class="col-8">
-            <p>ここに内容</p>
+            <router-view></router-view>
         </div>
     </div>
     </div>
