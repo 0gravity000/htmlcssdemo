@@ -10,6 +10,12 @@ import Links from "./components/html/Links";
 import List from "./components/html/List";
 import Table from "./components/html/Table";
 
+import UniversalSelectors from "./components/css/UniversalSelectors";
+import TypeSelectors from "./components/css/TypeSelectors";
+import ClassSelectors from "./components/css/ClassSelectors";
+import IDSelectors from "./components/css/IDSelectors";
+import AttributeSelectors from "./components/css/AttributeSelectors";
+
  require('./bootstrap');
 
 window.Vue = require('vue');
@@ -41,6 +47,28 @@ const router = new VueRouter({
             path: '/html/table',
             component: Table
         },
+
+        {
+            path: '/css/universal-selectors',
+            component: UniversalSelectors
+        },
+        {
+            path: '/css/type-selectors',
+            component: TypeSelectors
+        },
+        {
+            path: '/css/class-selectors',
+            component: ClassSelectors
+        },
+        {
+            path: '/css/id-selectors',
+            component: IDSelectors
+        },
+        {
+            path: '/css/attribute-selectors',
+            component: AttributeSelectors
+        },
+
     ]
 });
 
