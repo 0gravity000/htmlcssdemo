@@ -17,8 +17,12 @@ import IDSelectors from "./components/css/IDSelectors";
 import AttributeSelectors from "./components/css/AttributeSelectors";
 import PseudoClasses from "./components/css/PseudoClasses";
 import PseudoElements from "./components/css/PseudoElements";
+import BackgroundProperties from "./components/css/BackgroundProperties";
+import TextProperties from "./components/css/TextProperties";
+import FontProperties from "./components/css/FontProperties";
+import BoxProperties from "./components/css/BoxProperties";
 
- require('./bootstrap');
+require('./bootstrap');
 
 window.Vue = require('vue');
 
@@ -78,7 +82,23 @@ const router = new VueRouter({
             path: '/css/pseudo-elements',
             component: PseudoElements
         },
-
+        {
+            path: '/css/background-properties',
+            component: BackgroundProperties
+        },
+        {
+            path: '/css/text-properties',
+            component: TextProperties
+        },
+        {
+            path: '/css/font-properties',
+            component: FontProperties
+        },
+        {
+            path: '/css/box-properties',
+            component: BoxProperties
+        },
+        
     ]
 });
 
