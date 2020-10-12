@@ -29,6 +29,8 @@
             <router-link to="/css/class-selectors">クラスセレクター(.)</router-link><br>
             <router-link to="/css/id-selectors">IDセレクター(#)</router-link><br>
             <router-link to="/css/attribute-selectors">属性セレクター([])</router-link><br>
+            <router-link to="/css/pseudo-classes">擬似クラス(:)</router-link><br>
+            <router-link to="/css/pseudo-elements">疑似要素(::)</router-link><br>
 
         </div>
         <div id="main" class="col-8">

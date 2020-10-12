@@ -15,6 +15,8 @@ import TypeSelectors from "./components/css/TypeSelectors";
 import ClassSelectors from "./components/css/ClassSelectors";
 import IDSelectors from "./components/css/IDSelectors";
 import AttributeSelectors from "./components/css/AttributeSelectors";
+import PseudoClasses from "./components/css/PseudoClasses";
+import PseudoElements from "./components/css/PseudoElements";
 
  require('./bootstrap');
 
@@ -67,6 +69,14 @@ const router = new VueRouter({
         {
             path: '/css/attribute-selectors',
             component: AttributeSelectors
+        },
+        {
+            path: '/css/pseudo-classes',
+            component: PseudoClasses
+        },
+        {
+            path: '/css/pseudo-elements',
+            component: PseudoElements
         },
 
     ]
