@@ -55,7 +55,7 @@
     }
 </script>
 
-<style>
+<style scoped>
 caption {
     padding: 10px;
     caption-side: bottom;
