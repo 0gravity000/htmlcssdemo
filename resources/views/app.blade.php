@@ -23,6 +23,7 @@
             <h1>HTML</h1>
             <router-link to="/html/list">リスト関連</router-link><br>
             <router-link to="/html/table">テーブル関連</router-link><br>
+            <router-link to="/html/form">フォーム関連</router-link><br>
             <hr>
             <h1>CSS</h1>
             <h2>セレクター</h2>

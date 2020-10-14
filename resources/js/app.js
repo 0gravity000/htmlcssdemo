@@ -9,6 +9,7 @@ import HeaderComponent from "./components/HeaderComponent";
 import Links from "./components/html/Links";
 import List from "./components/html/List";
 import Table from "./components/html/Table";
+import Form from "./components/html/Form";
 
 import UniversalSelectors from "./components/css/UniversalSelectors";
 import TypeSelectors from "./components/css/TypeSelectors";
@@ -52,6 +53,10 @@ const router = new VueRouter({
         {
             path: '/html/table',
             component: Table
+        },
+        {
+            path: '/html/form',
+            component: Form
         },
 
         {
